@@ -1,6 +1,6 @@
 {
   "name": "Slackshell",
   "tagline": "Shell in slack :D",
-  "body": "# test",
+  "body": "\r\n### Getting started\r\n\r\nClone the repository on to your desired server (Ubuntu 14.04 Recommended)\r\n\r\n``` shell\r\ngit clone https://github.com/dtesler/slackshell.git\r\n```\r\n\r\nnext, create a bot for your team at https://my.slack.com/services/new/bot\r\n\r\n![Creating a bot](http://i.imgur.com/M7XqlcT.gif)\r\n\r\nOnce you have created the bot, copy your token\r\n\r\n![Bot Token](http://i.imgur.com/cBmDAuV.png)\r\n\r\nand then execute the following in your project directory\r\n\r\n``` shell\r\ntoken={token} node bot.js\r\n```\r\n\r\nwhere *{token}* is your token that you previously copied\r\n\r\nYou can now execute terminal commands (each slack user is a separate linux user) by either sending a direct message to the bot or mentioning it in a channel where it is present.\r\n\r\n![Slackshell test](http://i.imgur.com/oqeX8KF.gif)\r\n\r\n###### please contribute to my crap code\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

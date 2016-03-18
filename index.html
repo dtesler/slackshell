@@ -19,8 +19,33 @@
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="test" class="anchor" href="#test" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>test</h1>
+      <h3>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h3>
+
+<p>Clone the repository on to your desired server (Ubuntu 14.04 Recommended)</p>
+
+<div class="highlight highlight-source-shell"><pre>git clone https://github.com/dtesler/slackshell.git</pre></div>
+
+<p>next, create a bot for your team at <a href="https://my.slack.com/services/new/bot">https://my.slack.com/services/new/bot</a></p>
+
+<p><img src="http://i.imgur.com/M7XqlcT.gif" alt="Creating a bot"></p>
+
+<p>Once you have created the bot, copy your token</p>
+
+<p><img src="http://i.imgur.com/cBmDAuV.png" alt="Bot Token"></p>
+
+<p>and then execute the following in your project directory</p>
+
+<div class="highlight highlight-source-shell"><pre>token={token} node bot.js</pre></div>
+
+<p>where <em>{token}</em> is your token that you previously copied</p>
+
+<p>You can now execute terminal commands (each slack user is a separate linux user) by either sending a direct message to the bot or mentioning it in a channel where it is present.</p>
+
+<p><img src="http://i.imgur.com/oqeX8KF.gif" alt="Slackshell test"></p>
+
+<h6>
+<a id="please-contribute-to-my-crap-code" class="anchor" href="#please-contribute-to-my-crap-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>please contribute to my crap code</h6>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/dtesler/slackshell">Slackshell</a> is maintained by <a href="https://github.com/dtesler">dtesler</a>.</span>
