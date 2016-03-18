@@ -1,0 +1,7 @@
+node_modules/
+start.sh
+start_button.sh
+db/
+.DS_Store
+*/.DS_Store
+.env
